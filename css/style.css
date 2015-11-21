@@ -1,0 +1,92 @@
+body{
+	background-color: black;
+}
+
+header{
+
+}
+
+h1{
+	text-align: center;
+	font-family: 'Arizonia', cursive;
+	font-size: 70px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 100;
+	color: #fff;
+	text-shadow: 3px 2px #f0000f;
+	}
+h2{
+	text-align: center;
+	font-family: 'Gruppo', cursive;
+	font-size: 35px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 50;
+	color: #ffffff;
+	}
+
+table, th, td {
+	padding: 10%;
+    border: 1px solid pink;
+    border-collapse: collapse;
+    font-color: white;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.centertable{
+	margin: 0px auto;
+	padding: 5%;
+
+}
+
+.jumbotron{
+	background-image:url(c:/tts/OnyxDesignSpace/images/Onyxflats.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 10%;
+	}
+
+#aboutme{
+	color: white;
+	padding:20%;
+}
+
+
+
+
+	/*FONTS*/
+
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Forum', cursive;
+font-family: 'Gruppo', cursive;
+font-family: 'Seaweed Script', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Delius', cursive;
+font-family: 'Patrick Hand SC', cursive;
+font-family: 'Arizonia', cursive;
+font-family: 'Qwigley', cursive;
+font-family: 'Oregano', cursive;
+font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Ruthie', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Trade Winds', cursive;
+font-family: 'Bilbo', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Caveat', cursive;
