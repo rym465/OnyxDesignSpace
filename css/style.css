@@ -1,63 +1,150 @@
 body{
 	background-color: black;
+	font-family: 'Gruppo', cursive;
 }
 
 header{
-
+	display: inline-block;
 }
 
 h1{
 	text-align: center;
-	font-family: 'Arizonia', cursive;
-	font-size: 70px;
-	font-style: bold;
+	font-family: 'Gruppo', cursive;
+	font-size: 100px;
 	font-variant: normal;
-	font-weight: 100;
+	font-weight: 200;
 	color: #fff;
-	text-shadow: 3px 2px #f0000f;
+	text-shadow: 3px 2px blue;
+	/*padding bottom:-10px;*/
 	}
+
 h2{
 	text-align: center;
 	font-family: 'Gruppo', cursive;
-	font-size: 35px;
-	font-style: bold;
+	font-size: 50px;
 	font-variant: normal;
 	font-weight: 50;
 	color: #ffffff;
 	}
 
-table, th, td {
-	padding: 10%;
-    border: 1px solid pink;
-    border-collapse: collapse;
-    font-color: white;
-    color: white;
-    vertical-align: middle;
-    text-align: center;
+h3{
+	text-align: center;
+	font-family: 'Gruppo', cursive;
+	font-size: 25px;
+	font-variant: normal;
+	font-weight: 50;
+	color: #ffffff;
+	}
+
+footer h3{
+	text-align: left;
+	font-family: 'Gruppo', cursive;
+	font-size: 25px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 50;
+	color: red;
+	}	
+
+h4{
+	font-family: 'Gruppo', cursive;
+	font-size: 20px;
+	font-style: bold;
+	line-height: 10px;
+	font-variant: normal;
+	font-weight: 100;
+	color: black;
+	}
+
+.container{
+  display: inline-block;
+}
+
+.sites{
+  display: inline-block;
+width: 100%
+margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+/*  border-radius: 25%*/
 }
 
 .centertable{
 	margin: 0px auto;
-	padding: 5%;
-
+	/*padding: 5%;*/
 }
 
 .jumbotron{
-	background-image:url(c:/tts/OnyxDesignSpace/images/Onyxflats.jpg);
+	background-image:url(c:/tts/OnyxDesignSpace/images/OnyxLogoTop.jpg);
+	background-size: 50px;
 	background-attachment: fixed;
 	background-size: cover;
-	padding: 10%;
+	padding-top: 20%;
+	padding-bottom: 15% ;
+	padding-right: 0;
+	padding-left:0; 
 	}
+/**/
+.col-sm-4{
+	text-align: center;
+	 horizontal-align: center;
+	text-decoration: none;
+	padding-top: 5%;
+	color:white;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-width: 10px;
+	border-color: red;
+	background-color: #302f2f;
+}	
+
+p{
+	text-align: center;
+	color: white;
+	font-family: 'Gruppo', cursive;
+	font-size: 20px;
+	font-style: bold;
+}
+img{
+	height:100px;
+	width:200px ;
+	border-radius: 5%
+}
 
 #aboutme{
 	color: white;
-	padding:20%;
+	padding:2%;
+	display: inline-block;
+	width: 45%;
+	padding-left: 5%;
+	padding-right: 5%;
+	vertical-align: top;
+	text-align: justify;
+	}
+
+#aboutsvcs{
+	color: white;
+	padding:2%;
+	display: inline-block;
+	width: 45%;
+	padding-left: 5%;
+	padding-right: 5%;
+	vertical-align: top;
+	text-align: justify;
+	}
+
+.contact{
+	color:white;
+	display:inline-block;
+	line-height: 10px;
+	padding-left: 5%;
+	background-color: #701e2a;
 }
 
 
-
-
-	/*FONTS*/
+	FONTS
 
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Architects Daughter', cursive;
