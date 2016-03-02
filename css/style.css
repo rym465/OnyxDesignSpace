@@ -1,179 +1,173 @@
 body{
-	background-color: black;
-	font-family: 'Gruppo', cursive;
+	margin: 10px;
+	font-family: "raleway", "sans-serif";
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,7d7e7d+100 */
+background: rgb(14,14,14); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
+
 }
 
-header{
-	display: inline-block;
+/*Bootstrap Grids*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.content{
+	background-color: #111000;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	padding: 15px;
+	border-width: 1px;
+	border-color: #ffd440;
+	border-radius: 1px;
+	border-style: solid;
 }
 
-h1{
-	text-align: center;
-	font-family: 'Gruppo', cursive;
-	font-size: 100px;
-	font-variant: normal;
-	font-weight: 200;
-	color: #fff;
-	text-shadow: 3px 2px blue;
-	/*padding bottom:-10px;*/
-	}
-
-h2{
-	text-align: center;
-	font-family: 'Gruppo', cursive;
-	font-size: 50px;
-	font-variant: normal;
-	font-weight: 50;
-	color: #ffffff;
-	}
-
-h3{
-	text-align: center;
-	font-family: 'Gruppo', cursive;
-	font-size: 25px;
-	font-variant: normal;
-	font-weight: 50;
-	color: #ffffff;
-	}
-
-footer h3{
-	text-align: left;
-	font-family: 'Gruppo', cursive;
-	font-size: 25px;
-	font-style: bold;
-	font-variant: normal;
-	font-weight: 50;
-	color: red;
-	}	
-
-h4{
-	font-family: 'Gruppo', cursive;
-	font-size: 20px;
-	font-style: bold;
-	line-height: 10px;
-	font-variant: normal;
-	font-weight: 100;
+a{
+	text-decoration: none;
+	/*color: red;*/
+	padding: 5px;
+	text-align: right;
 	color: black;
-	}
 
-.container{
-  display: inline-block;
 }
 
-.sites{
-  display: inline-block;
-width: 100%
-margin: auto;
-  margin-top: 5px;
-  padding: 5px;
-  text-align: center;
-/*  border-radius: 25%*/
+a:hover { 
+   border-style: solid;
+   border-color: black;
+   background-color: white:;
+   opacity: .1;
+   border-width: 1px;
+   border-radius:2px;
+  /* opacity: .9;*/
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+   /* background-color: #EFD1B6;*/
+
 }
 
-.centertable{
-	margin: 0px auto;
-	/*padding: 5%;*/
+li{
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: small;
+	text-decoration: none;
 }
 
 .jumbotron{
-	background-image:url(c:/tts/OnyxDesignSpace/images/OnyxLogoTop.jpg);
-	background-size: 50px;
-	background-attachment: fixed;
+	background-image: url(../images/odslogo3.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 20%;
-	padding-bottom: 15% ;
-	padding-right: 0;
-	padding-left:0; 
-	}
-/**/
-.col-sm-4{
+	max-width: 100%;
+	height: 600px;
+	max-height: 80%;
+	margin-top: 5px;
+	/*padding: 40%;*/
+	padding-bottom: 15%;
+	background-attachment: fixed;
+	background-position: center center;
+	border-width: 1px;
+	border-color: #ffe100;
+	border-style:solid;
+	border-radius: 2px;
+
+}
+
+.jumbotron h1{
+	color: #ffe100;
+	text-shadow: 3px 2px 2px black;
+	text-align: right;
+	line-height: 1px;
+	font-size: 8em;
+	padding: 10px;
+}
+
+.jumbotron h3{
+	color: white;
+	text-align: right;
+	line-height: 1px;
+	font-size: 3em;
+}
+
+.jumbotron h5{
+	color: black;
+	text-align: right;
+	font-size: 1em;
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px);
+{}
+
+.col-sm-3{
 	text-align: center;
-	 horizontal-align: center;
+	/*horizontal-align: center;*/
 	text-decoration: none;
-	padding-top: 5%;
+	padding-top: 3%;
+	padding-bottom: 2%;
 	color:white;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	border-width: 10px;
-	border-color: red;
-	background-color: #302f2f;
-}	
+}
 
+.row{
+	border-width: 1px;
+	border-color: grey;
+	border-style:solid;
+	background-color: #ffd400;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	margin: 3px;
+
+}
+
+/*Text about Services*/
 p{
-	text-align: center;
-	color: white;
-	font-family: 'Gruppo', cursive;
-	font-size: 20px;
-	font-style: bold;
-}
-img{
-	height:100px;
-	width:200px ;
-	border-radius: 5%
-}
-
-#aboutme{
-	color: white;
-	padding:2%;
-	display: inline-block;
-	width: 45%;
-	padding-left: 5%;
-	padding-right: 5%;
-	vertical-align: top;
 	text-align: justify;
-	}
+}
 
-#aboutsvcs{
-	color: white;
-	padding:2%;
+.container-fluid .row .col-sm-3 .img-responsive p{
 	display: inline-block;
-	width: 45%;
-	padding-left: 5%;
-	padding-right: 5%;
-	vertical-align: top;
-	text-align: justify;
-	}
+	width: 33%;
+	border-width: 1px;
+	text-shadow: 2px 2px 2px #ffd400;
+	
+}
 
-.contact{
-	color:white;
-	display:inline-block;
-	line-height: 10px;
-	padding-left: 5%;
-	background-color: #701e2a;
+.container h3{
+	text-shadow: 1px 1px 1px yellow;
+
+
+}
+
+.img-responsive {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 2%;	
+	box-shadow: 3px 3px 5px black;
+	margin-bottom: 10px;
 }
 
 
-	FONTS
+.footer{
+	margin-bottom: 1px;
+	
+}
 
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Architects Daughter', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Poiret One', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Comfortaa', cursive;
-font-family: 'Handlee', cursive;
-font-family: 'Rock Salt', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Calligraffitti', cursive;
-font-family: 'Bad Script', cursive;
-font-family: 'Reenie Beanie', cursive;
-font-family: 'Walter Turncoat', cursive;
-font-family: 'Alex Brush', cursive;
-font-family: 'Allura', cursive;
-font-family: 'Forum', cursive;
-font-family: 'Gruppo', cursive;
-font-family: 'Seaweed Script', cursive;
-font-family: 'Italianno', cursive;
-font-family: 'Delius', cursive;
-font-family: 'Patrick Hand SC', cursive;
-font-family: 'Arizonia', cursive;
-font-family: 'Qwigley', cursive;
-font-family: 'Oregano', cursive;
-font-family: 'Bilbo Swash Caps', cursive;
-font-family: 'Ruthie', cursive;
-font-family: 'Nosifer', cursive;
-font-family: 'Trade Winds', cursive;
-font-family: 'Bilbo', cursive;
-font-family: 'Princess Sofia', cursive;
-font-family: 'Caveat', cursive;
+
+
