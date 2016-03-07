@@ -1,0 +1,173 @@
+body{
+	margin: 10px;
+	font-family: "raleway", "sans-serif";
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,7d7e7d+100 */
+background: rgb(14,14,14); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*Bootstrap Grids*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.content{
+	background-color: #111000;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	padding: 15px;
+	border-width: 1px;
+	border-color: #ffd440;
+	border-radius: 1px;
+	border-style: solid;
+}
+
+a{
+	text-decoration: none;
+	/*color: red;*/
+	padding: 5px;
+	text-align: right;
+	color: black;
+
+}
+
+a:hover { 
+   border-style: solid;
+   border-color: black;
+   background-color: white:;
+   opacity: .1;
+   border-width: 1px;
+   border-radius:2px;
+  /* opacity: .9;*/
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+   /* background-color: #EFD1B6;*/
+
+}
+
+li{
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: small;
+	text-decoration: none;
+}
+
+.jumbotron{
+	background-image: url(../images/odslogo3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 600px;
+	max-height: 80%;
+	margin-top: 5px;
+	/*padding: 40%;*/
+	padding-bottom: 15%;
+	background-attachment: fixed;
+	background-position: center center;
+	border-width: 1px;
+	border-color: #ffe100;
+	border-style:solid;
+	border-radius: 2px;
+
+}
+
+.jumbotron h1{
+	color: #ffe100;
+	text-shadow: 3px 2px 2px black;
+	text-align: right;
+	line-height: 1px;
+	font-size: 8em;
+	padding: 10px;
+}
+
+.jumbotron h3{
+	color: white;
+	text-align: right;
+	line-height: 1px;
+	font-size: 3em;
+}
+
+.jumbotron h5{
+	color: black;
+	text-align: right;
+	font-size: 1em;
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px);
+{}
+
+.col-sm-3{
+	text-align: center;
+	/*horizontal-align: center;*/
+	text-decoration: none;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	color:white;
+}
+
+.row{
+	border-width: 1px;
+	border-color: grey;
+	border-style:solid;
+	background-color: #ffd400;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	margin: 3px;
+
+}
+
+/*Text about Services*/
+p{
+	text-align: justify;
+}
+
+.container-fluid .row .col-sm-3 .img-responsive p{
+	display: inline-block;
+	width: 33%;
+	border-width: 1px;
+	text-shadow: 2px 2px 2px #ffd400;
+	
+}
+
+.container h3{
+	text-shadow: 1px 1px 1px yellow;
+
+
+}
+
+.img-responsive {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 2%;	
+	box-shadow: 3px 3px 5px black;
+	margin-bottom: 10px;
+}
+
+
+.footer{
+	margin-bottom: 1px;
+	
+}
+
+
+
